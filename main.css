@@ -1,0 +1,520 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    background-image: url(background-img2.png);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+    padding:20px 30px;
+}
+.navigants{
+    margin:25px 0px;
+    padding-left: 30px;
+}
+.navigants > a:hover .half{
+    padding-bottom:5px;
+    border-bottom: 1px solid #C39953;
+}
+
+.profile-head a {
+    text-decoration: none;
+    color: white;
+    margin: 0 2px;
+    padding:0 30px;
+    letter-spacing: 1.8px;
+}
+.profile{
+    margin:0 10px;
+    border:1px solid white;
+    border-radius:50%
+}
+.icon-row{
+    margin-top: 50px;
+}
+.head-icons > li{
+    list-style-type: none;
+    margin-top: 20px;
+    color: gray;
+    border: 1px solid gray;
+    width: 25px;
+    height: 25px;
+    padding: 2px 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.head-icons >li:hover{
+ border-color: white;
+ background-color: white;
+}
+.face{
+    border-color: white;
+    background-color: white;
+}
+.reader{
+    padding: 0 50px;
+    padding-top:30px;
+    color: white;
+    text-align: center;
+}
+.reader > h5{
+    letter-spacing: 1px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+}
+.reader > h2{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 72px;
+    padding-bottom: 10px;
+}
+.reader  p {
+    padding-top:15px ;
+   cursor: pointer;
+}
+.demo-part{
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+}
+.scrollbar{
+    position: absolute;
+    bottom: 70px;
+}
+.about-section{
+    margin-top:55px;
+}
+.pink-section {
+    background-color: rgb(250, 101, 126);
+    color:rgb(50, 50, 122);
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 40px
+}
+.pink-section span{
+    color: white;
+    word-spacing: 1;
+    font-weight: bold;
+}
+.close{
+    padding-left: 30px;
+    color: white;
+}
+.details  {
+    margin-left: 60px;
+    padding-left: 60px;
+    font-weight: bold;
+}
+.details-section {
+    background-color: #eee;
+    box-shadow: 0 0 5px gray;
+    letter-spacing: 1.5px;
+    padding-bottom: 20px;
+
+}
+.content{
+    letter-spacing: 1.5px;
+    color: gray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.details-section > h5{
+    padding: 25px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+.button-pink{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5px;
+    border: 1px solid rgb(226, 25, 59);
+    color:rgb(226, 25, 59);
+    background-color:#eee;
+}
+.button-pink > span{
+    font-size: 18px;
+    padding: 5px 15px;
+    border-right: 1px solid rgb(226, 25, 59);
+    background-color:#eee;
+    color:rgb(226, 25, 59);
+}
+.pinkish-button{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5px;
+    border: 1px solid rgb(226, 25, 59);
+    color:rgb(226, 25, 59);
+    background-color:transparent;
+    font-weight: bold;
+}
+.pinkish-button > span{
+    font-size: 18px;
+    padding: 5px 15px;
+    border-right: 1px solid rgb(226, 25, 59);
+    background-color:transparent;
+    color:rgb(226, 25, 59);
+}
+.features{
+    padding: 20px;
+}
+.features > h5{
+    padding-top: 10px;
+    line-height: 1.5;
+}
+.invitation-date{
+    padding: 50px 0;
+    margin-left: 20px;
+}
+.invitation{
+    padding: 0 30px;
+}
+.invitation > img{
+    padding: 0 30px;
+}
+.invitation > p{
+    color:gray;
+    font-size: 10px;
+    padding-top: 10px;
+    padding-right: 20px;
+    text-align: center;
+
+}
+.invitation-last > img{
+    padding-left: 20px;
+}
+.invitation-last p{
+    color:gray;
+    width: 100px;
+    font-size: 10px;
+    padding-top: 10px;
+    
+}
+.position-imgs{
+    position: relative;
+}
+.laptop{
+    padding: 20px;
+}
+.plate{
+    position: absolute;
+    width:105px;
+    height:240px;
+    top:80px;
+    left:0;
+}
+.tab{
+    position: absolute;
+    bottom: 0;
+    right:0;
+}
+.phone{
+    position: absolute;
+    bottom: 0;
+    right:150px;
+}
+.still{
+    position: absolute;
+    bottom: 13px;
+    right: 155px;
+}
+.extrapremium{
+    margin-left: 15px;
+    padding:0 0 150px 0;
+    /* width: 600px; */
+    margin-left: 30px;
+}
+.extrapremium > h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 20px;
+    line-height: 1.3;
+    font-size: 40px;
+    color:#C39953;
+    letter-spacing: 2px;
+    margin-left: 10px;
+    
+}
+.extrapremium > h5{
+    padding-top: 10px;
+    line-height: 1.8;
+    letter-spacing: 2px;
+    color:gray;
+    margin-left: 10px;
+}
+.spank{
+    font-size:  20px;
+    color:hotpink;
+}
+.guestlist{
+    margin-left: 15px;
+    padding:0 0 150px 0;
+    width: 600px;
+    position: relative;
+
+}
+.guestlist > h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 20px;
+    line-height: 1.3;
+    font-size: 50px;
+    color:#C39953;
+    letter-spacing: 2px;
+    margin-left: 120px;
+    
+}
+.guestlist > h5{
+    padding-top: 10px;
+    line-height: 1.8;
+    letter-spacing: 2px;
+    color:gray;
+    margin-left: 120px;
+}
+
+.guestbar {
+    margin-left:13px;
+}
+.guest{
+    position: relative;
+}
+.modals{
+    position: absolute;
+    right:20px;
+    bottom:10px;
+}
+.barcode{
+    margin-left:120px;
+    position: absolute;
+    top:0;
+    right:0;
+}
+.bared{
+    margin-left:16px;
+}
+.guestlist > .pinkish-button{
+    margin-left:120px;
+}
+.works{
+    background-color:#eee;
+}
+.oval{
+    background-image: url(bgback.png);
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.design{
+    padding: 40px 70px;
+
+}
+.design > h1{
+    color: gray;
+    padding:0 20px;
+}
+.design > h2{
+    color:rgb(250, 101, 126);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding:0 20px;
+}
+.design > h5 {
+    line-height: 1.8;
+    padding-right: 50px;
+    padding:0 20px;
+    color:gray;
+}
+.elite{
+    margin: 30px 0 0 50px;
+    text-align:center;
+    background-color:rgb(250, 101, 126);
+    color: white;
+    padding: 10px 10px 10px 0;
+    border: 1px solid transparent;
+}
+.elite > span{
+    font-size: 18px;
+    margin-right: 10px;
+    padding: 11px 10px;
+    border-right: 1px solid rgb(236, 42, 74);
+    background-color:#eee;
+    color:rgb(226, 25, 59);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     
+}
+.websites{
+    padding:0;
+}
+.premium > h2{
+    margin-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 10px;
+    line-height: 1.3;
+    font-size: 40px;
+    color:#C39953;
+    letter-spacing: 2px;
+}
+
+.wider{
+    width:600px;
+}
+.test {
+    background-color: #eee;  
+    
+}
+.apostophe{
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+}
+.test > h3{
+    padding: 40px 0;
+}
+.display-picture{
+    margin-left: 80px;
+    margin-top: 40px;
+}
+.foot-pad{
+    padding-top: 30px;
+    padding-left:60px;
+    height: 200px;
+    line-height: 2.5;
+}
+.social{
+    padding-top:10px;
+    width: 160px;
+}
+
+.social > a{
+    text-decoration: none;
+    color:gray;
+
+}
+.hidee{
+    display: none;
+}
+.fb > i{
+    cursor: pointer;
+    border: 1px solid gray;
+    padding: 8px;
+    border-radius: 50%;
+}
+.fb > i:hover{
+    border:1px solid rgb(5, 5, 133);
+    color: rgb(5, 5, 133);
+}
+.rights{
+    color:gray;
+    padding-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1.5px;
+}
+.arrow_box {
+    opacity: 0;
+    position: relative;
+    font-weight: bold;
+    padding: 5px 25px;
+    margin: 5px 0 0 0;
+    margin-left:450px;
+	background: #fafafa;
+    border: 1px solid #f5f5f5;
+    cursor: pointer;
+    
+}
+.arrow_box:hover{
+    opacity: 1;
+}
+.navigates > .veronica a:hover input ~ .arrow_box {
+    opacity: 1;
+}
+.arrow_box:after, .arrow_box:before {
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow_box:after {
+	border-color: rgba(250, 250, 250, 0);
+	border-bottom-color: #fafafa;
+	border-width: 10px;
+	margin-left: -20px;
+}
+.arrow_box:before {
+	border-color: rgba(245, 245, 245, 0);
+	border-bottom-color: #f5f5f5;
+	border-width: 11px;
+    margin-left: -21px;
+}
+.arrow{
+    margin-top: 5px;
+    display: inline-block;
+}
+.title{
+    display: table;
+    width: 80%;
+    background: transparent;
+    padding: 20px 0;
+   
+
+}
+  .title-row{
+    display: table-row;
+    /* margin-right:10px; */
+  }
+  .bar-container {
+    display: table-cell;
+    position: relative;
+    width: 50%;
+  }
+  .bar {
+    position: absolute;
+    width: 80%;
+    top: 55%;
+    left:50%;
+   
+    border-bottom: 1px solid transparent;
+  }
+  .text {
+    display: table-cell;
+    padding:50px 0;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1.5px;
+    text-align: center;
+    width: 25%;
+}
+.texted{
+    display: table-cell;
+    padding:0px 0;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1.5px;
+    text-align: center;
+    width: 25%;
+}
+@media only screen and (max-width: 500px){
+
+    .modals{display:none;}
+    .position-imgs {margin:50px;}
+    .position-imgs > img{max-width:200px;}
+    .position-imgs > .plate{display:none;}
+    .guestlist > h1{font-size:22px; max-width:100px;}
+    .guestlist {margin: 0px; max-width:300px;}
+    .extrapremium >h1{margin: 0 40px; font-size:22px; max-width:100px;}
+    .extrapremium >h5 {margin: 0 40px; max-width:200px;}
+    .display-picture{max-width:200px; margin:0; padding:0; text-align: center;}
+    .navigants > a {margin: 30px 0; padding:0 0 30px 30px; }
+    .profile{ position: absolute;top:0;right:0;}
+    .scrollbar {display: none;}
+    .rights{margin-bottom: 10px;font-size: 12px;}
+    .button-pink > span{display: none;}
+    .elite {padding:10px;}
+    .elite    >span{display: none;}
+    .details{margin-left:0px;}
+    .arrow_box{display: none;}
+    .arrow{display: none;}
+}
